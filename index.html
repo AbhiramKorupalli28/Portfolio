@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhiram Korupalli — UI/UX Designer</title>
+  <meta name="description" content="UI/UX Designer crafting intuitive digital experiences. Specializing in mobile app design, user research, and Figma prototyping." />
+  <meta name="keywords" content="UI/UX Designer, Figma, Mobile App Design, Abhiram Korupalli, Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Pacifico&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Animated Background Orbs -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo">abhiram.</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active" id="nav-home">Home</a>
+        <a href="#about" class="nav-link" id="nav-about">About</a>
+        <a href="#skills" class="nav-link" id="nav-skills">Skills</a>
+        <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+        <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+      </div>
+      <a href="mailto:abhiramkorupalli@gmail.com" class="nav-cta" id="nav-cta-btn">Hire Me ✦</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#home" class="mobile-link" id="mob-home">Home</a>
+    <a href="#about" class="mobile-link" id="mob-about">About</a>
+    <a href="#skills" class="mobile-link" id="mob-skills">Skills</a>
+    <a href="#projects" class="mobile-link" id="mob-projects">Projects</a>
+    <a href="#contact" class="mobile-link" id="mob-contact">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        Available for freelance work
+      </div>
+      <h1 class="hero-title" id="hero-title">
+        Designing <span class="gradient-text">experiences</span><br />
+        that <span class="typed-wrapper"><span class="typed-text" id="typed-text"></span><span class="cursor">|</span></span>
+      </h1>
+      <p class="hero-description" id="hero-desc">
+        I'm <strong>Abhiram Korupalli</strong> — a UI/UX Designer from Visakhapatnam, India.<br />
+        I craft intuitive, beautiful interfaces that users love.
+      </p>
+      <div class="hero-actions" id="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="btn-view-work">View My Work ↓</a>
+        <a href="https://www.behance.net/abhiram1228" target="_blank" rel="noopener" class="btn btn-ghost" id="btn-behance">Behance ↗</a>
+      </div>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">2+</span>
+          <span class="stat-label">Years Design</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">351+</span>
+          <span class="stat-label">Connections</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual" id="hero-visual">
+      <div class="avatar-glow"></div>
+      <div class="avatar-ring ring-1"></div>
+      <div class="avatar-ring ring-2"></div>
+      <div class="avatar-ring ring-3"></div>
+      <img src="assets/avatar-custom.jpg" alt="Abhiram Korupalli - UI/UX Designer" class="avatar-img" id="avatar-img" />
+      <div class="floating-badge badge-figma" id="badge-figma">
+        <svg width="20" height="20" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 28.5C19 25.9804 20.0009 23.5641 21.7825 21.7825C23.5641 20.0009 25.9804 19 28.5 19C31.0196 19 33.4359 20.0009 35.2175 21.7825C36.9991 23.5641 38 25.9804 38 28.5C38 31.0196 36.9991 33.4359 35.2175 35.2175C33.4359 36.9991 31.0196 38 28.5 38C25.9804 38 23.5641 36.9991 21.7825 35.2175C20.0009 33.4359 19 31.0196 19 28.5Z" fill="#1ABCFE"/>
+          <path d="M0 47.5C0 44.9804 1.00089 42.5641 2.78249 40.7825C4.56408 39.0009 6.98044 38 9.5 38H19V47.5C19 50.0196 17.9991 52.4359 16.2175 54.2175C14.4359 55.9991 12.0196 57 9.5 57C6.98044 57 4.56408 55.9991 2.78249 54.2175C1.00089 52.4359 0 50.0196 0 47.5Z" fill="#0ACF83"/>
+          <path d="M19 0V19H28.5C31.0196 19 33.4359 17.9991 35.2175 16.2175C36.9991 14.4359 38 12.0196 38 9.5C38 6.98044 36.9991 4.56408 35.2175 2.78249C33.4359 1.00089 31.0196 0 28.5 0H19Z" fill="#FF7262"/>
+          <path d="M0 9.5C0 12.0196 1.00089 14.4359 2.78249 16.2175C4.56408 17.9991 6.98044 19 9.5 19H19V0H9.5C6.98044 0 4.56408 1.00089 2.78249 2.78249C1.00089 4.56408 0 6.98044 0 9.5Z" fill="#F24E1E"/>
+          <path d="M0 28.5C0 31.0196 1.00089 33.4359 2.78249 35.2175C4.56408 36.9991 6.98044 38 9.5 38H19V19H9.5C6.98044 19 4.56408 20.0009 2.78249 21.7825C1.00089 23.5641 0 25.9804 0 28.5Z" fill="#A259FF"/>
+        </svg>
+        Figma Expert
+      </div>
+      <div class="floating-badge badge-anits" id="badge-anits">
+        🎓 ANITS, 2027
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text" id="about-text">
+          <p class="about-lead">
+            I'm a passionate <strong>UI/UX Designer</strong> pursuing my B.Tech at Anil Neerukonda Institute of Technology & Sciences (ANITS), graduating in 2027.
+          </p>
+          <p class="about-body">
+            I believe great design is invisible — it just <em>works</em>. My approach starts with understanding users deeply, then translating insights into clean, purposeful interfaces. I specialize in mobile app design, combining aesthetic beauty with functional clarity.
+          </p>
+          <p class="about-body">
+            Currently serving as a <strong>Perplexity Campus Partner</strong>, actively sharing design insights and tech knowledge with the developer community at my college. I love bridging the gap between design thinking and technology.
+          </p>
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/abhiramkorupalli" target="_blank" rel="noopener" class="social-link" id="social-linkedin">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://www.behance.net/abhiram1228" target="_blank" rel="noopener" class="social-link" id="social-behance">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.051-1.968-5.051-5.01 0-2.978 1.941-5.004 5.051-5.004 3.094 0 4.755 1.828 5.035 4.243.018.162.013.327.013.491h-7.537c.025 1.988.975 3.043 2.489 3.043 1.054 0 1.881-.456 2.101-1.763h3zm-7.756-3.458h4.486c-.063-1.482-.895-2.315-2.125-2.315-1.272 0-2.151.85-2.361 2.315zM9.26 7H4.5V5H.744v14H9.26c2.088 0 4.74-.864 4.74-3.555C14 13.015 12.918 11.61 11 11c1.562-.62 2.5-1.854 2.5-3.5C13.5 5.118 12.035 7 9.26 7zm-6.5 2.5h3.3c.765 0 2.44.205 2.44 1.75 0 1.5-1.418 1.75-2.44 1.75H2.76V9.5zm0 5h3.556c1.282 0 2.684.282 2.684 1.938 0 1.62-1.315 2.062-2.684 2.062H2.76V14.5z"/></svg>
+              Behance
+            </a>
+            <a href="mailto:abhiramkorupalli@gmail.com" class="social-link" id="social-email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email Me
+            </a>
+          </div>
+        </div>
+        <div class="about-cards" id="about-cards">
+          <div class="info-card" id="card-education">
+            <div class="info-card-icon">🎓</div>
+            <div class="info-card-content">
+              <h3>Education</h3>
+              <p><strong>B.Tech — ANITS</strong></p>
+              <p>Anil Neerukonda Institute of Technology & Sciences</p>
+              <span class="info-badge">Class of 2027</span>
+            </div>
+          </div>
+          <div class="info-card" id="card-diploma">
+            <div class="info-card-icon">📐</div>
+            <div class="info-card-content">
+              <h3>Diploma</h3>
+              <p><strong>Civil Engineering</strong></p>
+              <p>Aditya Polytechnic Colleges</p>
+              <span class="info-badge">2019 – 2022</span>
+            </div>
+          </div>
+          <div class="info-card" id="card-role">
+            <div class="info-card-icon">🚀</div>
+            <div class="info-card-content">
+              <h3>Campus Partner</h3>
+              <p><strong>Perplexity AI</strong></p>
+              <p>Sharing AI & design insights at ANITS</p>
+              <span class="info-badge">Current</span>
+            </div>
+          </div>
+          <div class="info-card" id="card-community">
+            <div class="info-card-icon">👥</div>
+            <div class="info-card-content">
+              <h3>Community</h3>
+              <p><strong>Meta Developer Community</strong></p>
+              <p>GITAM, Visakhapatnam Chapter</p>
+              <span class="info-badge">Active Member</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Use</span>
+        <h2 class="section-title">Skills & <span class="gradient-text">Tools</span></h2>
+      </div>
+      <div class="skills-grid" id="skills-grid">
+        <div class="skill-card" id="skill-figma">
+          <div class="skill-icon">
+            <svg width="40" height="40" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 28.5C19 25.9804 20.0009 23.5641 21.7825 21.7825C23.5641 20.0009 25.9804 19 28.5 19C31.0196 19 33.4359 20.0009 35.2175 21.7825C36.9991 23.5641 38 25.9804 38 28.5C38 31.0196 36.9991 33.4359 35.2175 35.2175C33.4359 36.9991 31.0196 38 28.5 38C25.9804 38 23.5641 36.9991 21.7825 35.2175C20.0009 33.4359 19 31.0196 19 28.5Z" fill="#1ABCFE"/>
+              <path d="M0 47.5C0 44.9804 1.00089 42.5641 2.78249 40.7825C4.56408 39.0009 6.98044 38 9.5 38H19V47.5C19 50.0196 17.9991 52.4359 16.2175 54.2175C14.4359 55.9991 12.0196 57 9.5 57C6.98044 57 4.56408 55.9991 2.78249 54.2175C1.00089 52.4359 0 50.0196 0 47.5Z" fill="#0ACF83"/>
+              <path d="M19 0V19H28.5C31.0196 19 33.4359 17.9991 35.2175 16.2175C36.9991 14.4359 38 12.0196 38 9.5C38 6.98044 36.9991 4.56408 35.2175 2.78249C33.4359 1.00089 31.0196 0 28.5 0H19Z" fill="#FF7262"/>
+              <path d="M0 9.5C0 12.0196 1.00089 14.4359 2.78249 16.2175C4.56408 17.9991 6.98044 19 9.5 19H19V0H9.5C6.98044 0 4.56408 1.00089 2.78249 2.78249C1.00089 4.56408 0 6.98044 0 9.5Z" fill="#F24E1E"/>
+              <path d="M0 28.5C0 31.0196 1.00089 33.4359 2.78249 35.2175C4.56408 36.9991 6.98044 38 9.5 38H19V19H9.5C6.98044 19 4.56408 20.0009 2.78249 21.7825C1.00089 23.5641 0 25.9804 0 28.5Z" fill="#A259FF"/>
+            </svg>
+          </div>
+          <h3>Figma</h3>
+          <p>Design, prototype, and collaborate — my primary tool for end-to-end product design.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          <span class="skill-level">Expert</span>
+        </div>
+        <div class="skill-card" id="skill-uiux">
+          <div class="skill-icon skill-icon-gradient">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>Creating user-centered designs with strong visual hierarchy and clear information architecture.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-card" id="skill-proto">
+          <div class="skill-icon skill-icon-gradient">⚡</div>
+          <h3>Prototyping</h3>
+          <p>Building interactive, high-fidelity prototypes that simulate real user journeys.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-card" id="skill-research">
+          <div class="skill-icon skill-icon-gradient">🔍</div>
+          <h3>UX Research</h3>
+          <p>User interviews, journey mapping, and usability testing to validate design decisions.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          <span class="skill-level">Proficient</span>
+        </div>
+        <div class="skill-card" id="skill-ps">
+          <div class="skill-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Photoshop" width="40" height="40" />
+          </div>
+          <h3>Adobe Photoshop</h3>
+          <p>Image editing, photo manipulation, and high-quality visual asset creation.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          <span class="skill-level">Proficient</span>
+        </div>
+        <div class="skill-card" id="skill-systems">
+          <div class="skill-icon skill-icon-gradient">📐</div>
+          <h3>Design Systems</h3>
+          <p>Building scalable component libraries and consistent design languages for product teams.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+          <span class="skill-level">Advanced</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-desc">A selection of UI/UX projects I've designed — from research to polished interfaces.</p>
+      </div>
+
+      <!-- Featured Project -->
+      <div class="featured-project" id="featured-project">
+        <div class="featured-image-wrap">
+          <img src="assets/speedyride.png" alt="SpeedyRide Ride Booking App UI Design" class="featured-img" id="featured-img" />
+          <div class="featured-overlay">
+            <a href="https://www.behance.net/abhiram1228" target="_blank" rel="noopener" class="view-btn" id="view-speedyride">View on Behance ↗</a>
+          </div>
+        </div>
+        <div class="featured-info">
+          <span class="project-tag">Mobile App · UI/UX</span>
+          <h3 class="project-title">SpeedyRide</h3>
+          <p class="project-desc">
+            A comprehensive ride-booking mobile application with <strong>64+ screens</strong>. Covers the complete user journey — from onboarding and secure OTP authentication to real-time map tracking and trip management.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag" id="tech-figma-1">Figma</span>
+            <span class="tech-tag" id="tech-android">Android</span>
+            <span class="tech-tag" id="tech-mobile">Mobile UI</span>
+            <span class="tech-tag" id="tech-prototype">Prototyping</span>
+          </div>
+          <div class="project-highlights">
+            <div class="highlight-item"><span>64+</span> Screens</div>
+            <div class="highlight-item"><span>100%</span> Figma</div>
+            <div class="highlight-item"><span>Full</span> User Flow</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="project-grid" id="project-grid">
+        <div class="project-card" id="project-navyas">
+          <div class="project-card-image">
+            <img src="assets/navyas.png" alt="Navya's Fashion Ecommerce App" />
+            <div class="project-card-overlay">
+              <a href="https://www.behance.net/abhiram1228" target="_blank" rel="noopener" class="overlay-btn" id="overlay-navyas">View Project ↗</a>
+            </div>
+          </div>
+          <div class="project-card-info">
+            <span class="project-tag">Fashion · E-Commerce</span>
+            <h3>Navya's</h3>
+            <p>A stylish fashion ecommerce app featuring multi-channel social login, category-based product navigation, and a seamless shopping experience. Designed for modern lifestyle shoppers.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">iOS/Android</span>
+              <span class="tech-tag">E-Commerce</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="project-dailybyte">
+          <div class="project-card-image">
+            <img src="assets/dailybyte.png" alt="DailyByte Personalized News App" />
+            <div class="project-card-overlay">
+              <a href="https://www.behance.net/abhiram1228" target="_blank" rel="noopener" class="overlay-btn" id="overlay-dailybyte">View Project ↗</a>
+            </div>
+          </div>
+          <div class="project-card-info">
+            <span class="project-tag">News · Content App</span>
+            <h3>DailyByte</h3>
+            <p>A personalized news reading app designed for distraction-free consumption. Features smart topic following, offline reading, and a clean typographic-first reading experience.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Figma</span>
+              <span class="tech-tag">UX Research</span>
+              <span class="tech-tag">Mobile</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How I Work</span>
+        <h2 class="section-title">My Design <span class="gradient-text">Process</span></h2>
+      </div>
+      <div class="process-steps" id="process-steps">
+        <div class="process-step" id="step-discover">
+          <div class="step-number">01</div>
+          <div class="step-icon">🔍</div>
+          <h3>Discover</h3>
+          <p>I start by understanding the problem space — user interviews, competitor analysis, and defining success metrics.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" id="step-define">
+          <div class="step-number">02</div>
+          <div class="step-icon">🗺️</div>
+          <h3>Define</h3>
+          <p>Synthesizing insights into user personas, journey maps, and a clear problem statement before touching the canvas.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" id="step-design">
+          <div class="step-number">03</div>
+          <div class="step-icon">✏️</div>
+          <h3>Design</h3>
+          <p>From low-fi wireframes to pixel-perfect high-fidelity designs. Every pixel has purpose.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step" id="step-deliver">
+          <div class="step-number">04</div>
+          <div class="step-icon">🚀</div>
+          <h3>Deliver</h3>
+          <p>Interactive prototypes, design handoff to developers, and iterating on feedback until the product ships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-card" id="contact-card">
+        <div class="contact-glow"></div>
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="contact-title">Have a project <span class="gradient-text">in mind?</span></h2>
+        <p class="contact-desc">
+          I'm currently open to freelance design projects and collaborations.<br />
+          Let's build something beautiful together.
+        </p>
+        <div class="contact-actions">
+          <a href="mailto:abhiramkorupalli@gmail.com" class="btn btn-primary btn-large" id="contact-email-btn">
+            Send me an email ✉️
+          </a>
+        </div>
+        <div class="contact-socials" id="contact-socials">
+          <a href="https://www.linkedin.com/in/abhiramkorupalli" target="_blank" rel="noopener" class="contact-social-btn" id="cta-linkedin" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://www.behance.net/abhiram1228" target="_blank" rel="noopener" class="contact-social-btn" id="cta-behance" aria-label="Behance">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.051-1.968-5.051-5.01 0-2.978 1.941-5.004 5.051-5.004 3.094 0 4.755 1.828 5.035 4.243.018.162.013.327.013.491h-7.537c.025 1.988.975 3.043 2.489 3.043 1.054 0 1.881-.456 2.101-1.763h3zm-7.756-3.458h4.486c-.063-1.482-.895-2.315-2.125-2.315-1.272 0-2.151.85-2.361 2.315zM9.26 7H4.5V5H.744v14H9.26c2.088 0 4.74-.864 4.74-3.555C14 13.015 12.918 11.61 11 11c1.562-.62 2.5-1.854 2.5-3.5C13.5 5.118 12.035 7 9.26 7zm-6.5 2.5h3.3c.765 0 2.44.205 2.44 1.75 0 1.5-1.418 1.75-2.44 1.75H2.76V9.5zm0 5h3.556c1.282 0 2.684.282 2.684 1.938 0 1.62-1.315 2.062-2.684 2.062H2.76V14.5z"/></svg>
+            Behance
+          </a>
+          <a href="mailto:abhiramkorupalli@gmail.com" class="contact-social-btn" id="cta-gmail" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="footer-logo">abhiram.</span>
+        <p class="footer-text">Designed & crafted with ❤️ in Visakhapatnam, India</p>
+        <p class="footer-copy">© 2026 Abhiram Korupalli. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
